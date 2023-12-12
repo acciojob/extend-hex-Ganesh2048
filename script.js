@@ -7,11 +7,11 @@ const extendHex = (shortHex) => {
 		if (t>=65 && t<=90) {
 			c=true;
 		}
-		output+=shortHex[i]+shortHex[i];
+		o+=shortHex[i]+shortHex[i];
 		i++;
 		
 	}
-	return c?;output.toUpperCase();output;
+	return c?;o.toUpperCase();o;
 };
 
 // Do not change the code below.
