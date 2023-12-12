@@ -11,7 +11,7 @@ const extendHex = (shortHex) => {
 		i++;
 		
 	}
-	return c ? o.toUpperCase() ; o;
+	return c ? o.toUpperCase() : o;
 };
 
 // Do not change the code below.
